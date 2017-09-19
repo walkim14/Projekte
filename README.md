@@ -2,5 +2,11 @@
 
 ## Laboreinheit 19.9.2017
 
-Anwesend sind: Stauß, Strutz, Tuttner, Uhl, Wieser, Waltl, Zitz  
+Anwesend sind:  
+Stauß, Strutz, Tuttner, Uhl, Wieser, Waltl, Zitz  
 
+**Thema:**
+* GIT
+* GitHub
+* Markdown
+[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
