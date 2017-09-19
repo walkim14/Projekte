@@ -6,7 +6,7 @@ Anwesend sind:
 Stauß, Strutz, Tuttner, Uhl, Wieser, Waltl, Zitz  
 
 **Thema:**
-* GIT
+* GIT ![Meme](https://img-9gag-fun.9cache.com/photo/aZg8m73_700b.jpg)
 * GitHub
 * Markdown
 [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
