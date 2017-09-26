@@ -16,7 +16,7 @@ Stauß, Strutz, Tuttner, Uhl, Wieser, Waltl, Zitz
 
 int main()
 {
-    printf("Hello World");
+    printf("Hello!");
     return 0;
 }
 ~~~
