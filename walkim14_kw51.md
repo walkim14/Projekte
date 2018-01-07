@@ -1,6 +1,6 @@
 # *Protokoll KW 51*
 
-  Name: Markus Wieser   
+  Name: Kilian Waltl  
   Klasse: 4AHME   
   Datum: 19.12.2017   
   Anwesend: Tuttner Raphael, Waltl Kilian, Wieser Markus    
