@@ -8,7 +8,7 @@
   
   ## **Modbus**
   
-  Das Kommunikationsprotokoll des Modbus ist ein zustandsloses Protokoll, welches auf dem Request/Response Prinzip aufgebaut ist.
+  Das Modbus-Protokoll ist zustandslos und ist auf dem Request/Response Prinzip aufgebaut.
   Der große Vorteil des Modbus-Protokolls liegt darin, dass sich andere Geräte mit unterschiedlichen Verbindungstechnologien miteinander verbinden lassen. (Zum Beispiel eine Serielle Schnittstelle wie UART und ein Netzwerk wie TCP/IP)
 
 Es gibt drei Varianten zur Datenübertragung:
