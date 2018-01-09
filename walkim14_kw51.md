@@ -11,7 +11,7 @@
   Das Kommunikationsprotokoll des Modbus ist ein zustandsloses Protokoll, welches auf dem Request/Response Prinzip aufgebaut ist.
   Der große Vorteil des Modbus-Protokolls liegt darin, dass sich andere Geräte mit unterschiedlichen Verbindungstechnologien miteinander verbinden lassen. (Zum Beispiel eine Serielle Schnittstelle wie UART und ein Netzwerk wie TCP/IP)
 
-Es gibt drei unterschiedliche Varianten zur Datenübertragung:
+Es gibt drei Varianten zur Datenübertragung:
 
 * Modbus ASCII   (textuelle byteweise Übertragung)     
 * Modbus RTU     (Remote Terminal Unit, binäre byteweise Übertragung)      
@@ -27,11 +27,11 @@ Es gibt drei unterschiedliche Varianten zur Datenübertragung:
 ## **Function-Codes**
 
 Der Function-Code definiert die Bedeutung eines Frames.   
-Dies wird in drei Kategorien unterteilt:
+Function Codes werden in drei Varianten unterteilt:
 
 * User defined Function Codes (65-72, 100-110)                    -> Werte dürfen individuell verwendet werden.    
 * Reserved Function Codes (8,9,10,13,14,41,42,90,91,125,126,127)  -> Werte welche von Unternehmen für Produkte verwendet werden.    
-* Public Function Codes(Alle Restlichen Werte)                    -> Werte welche von der Modbus.org community festgelegt werden.   
+* Public Function Codes(Alle Restlichen Werte)                    -> Werte welche von der Modbus.org Community festgelegt werden.   
 
 ## **Modbus-Gateway**
 
@@ -43,7 +43,9 @@ In der ADU (Application Data Unit) sind Frame Felder enthalten welche für die A
 
 Einfach erklärt ist eine Klasse ein "Bauplan" für ein Programm. Ein Klasse besteht aus Attributen und Methoden.   
 public abstract class -> Bei einer abstrakten Klasse werden Methoden und Namen geschrieben aber es gibt keinen Code dazu.   
-Vererbungen -> Bei Java gibt es immer nur eine Einfachvererbung. 
+Vererbungen -> Bei Java gibt es immer nur eine Einfachvererbung.
+Eine Kindklasse erhält alle Methoden der Elternklasse.
+Eine Elternklasse kann beliebig viele Kindklassen haben, doch eine Kindklasse kann nur eine Elternklasse haben.
 
 
 
