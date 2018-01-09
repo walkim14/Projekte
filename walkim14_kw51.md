@@ -9,7 +9,7 @@
   ## **Modbus**
   
   Das Modbus-Protokoll ist zustandslos und ist auf dem Request/Response Prinzip aufgebaut.
-  Der große Vorteil des Modbus-Protokolls liegt darin, dass sich andere Geräte mit unterschiedlichen Verbindungstechnologien miteinander verbinden lassen. (Zum Beispiel eine Serielle Schnittstelle wie UART und ein Netzwerk wie TCP/IP)
+  Mit Hilfe des Modbus-Protokolls können Geräte mit verschiedenen Verbindungstechnologien verbunden werden. (Zum Beispiel eine Serielle Schnittstelle wie UART und ein Netzwerk wie TCP/IP)
 
 Es gibt drei Varianten zur Datenübertragung:
 
@@ -41,11 +41,9 @@ In der ADU (Application Data Unit) sind Frame Felder enthalten welche für die A
 
 ## Java
 
-Einfach erklärt ist eine Klasse ein "Bauplan" für ein Programm. Ein Klasse besteht aus Attributen und Methoden.   
-public abstract class -> Bei einer abstrakten Klasse werden Methoden und Namen geschrieben aber es gibt keinen Code dazu.   
-Vererbungen -> Bei Java gibt es immer nur eine Einfachvererbung.
-Eine Kindklasse erhält alle Methoden der Elternklasse.
-Eine Elternklasse kann beliebig viele Kindklassen haben, doch eine Kindklasse kann nur eine Elternklasse haben.
+Klasse: Eine Klasse ist eine Art "Bauplan für ein Programm und sie besteht aus Attributen und Methoden. 
+public abstract class: Bei einer abstrakten Klasse werden Methoden und Namen geschrieben aber es gibt keinen Code dazu.   
+Vererbungen: Bei Java gibt es immer nur eine Einfachvererbung. Eine Kindklasse erhält alle Methoden der Elternklasse. Eine Elternklasse kann beliebig viele Kindklassen haben, doch eine Kindklasse kann nur eine Elternklasse haben.
 
 
 
