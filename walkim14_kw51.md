@@ -41,8 +41,10 @@ In der ADU (Application Data Unit) sind Frame Felder enthalten welche für die A
 
 ## Java
 
-Klasse: Eine Klasse ist eine Art "Bauplan für ein Programm und sie besteht aus Attributen und Methoden. 
+Klasse: Eine Klasse ist eine Art "Bauplan für ein Programm und sie besteht aus Attributen und Methoden.
+
 public abstract class: Bei einer abstrakten Klasse werden Methoden und Namen geschrieben aber es gibt keinen Code dazu.   
+
 Vererbungen: Bei Java gibt es immer nur eine Einfachvererbung. Eine Kindklasse erhält alle Methoden der Elternklasse. Eine Elternklasse kann beliebig viele Kindklassen haben, doch eine Kindklasse kann nur eine Elternklasse haben.
 
 
